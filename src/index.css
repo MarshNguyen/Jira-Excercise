@@ -1,0 +1,41 @@
+.taskcard{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto 20%;
+    border-style: solid;
+    height: 350px;
+    width: 350px;
+}
+
+.task-footer{
+    display: grid; 
+    grid-column-start: auto;
+    grid-row-start: 3;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 33% auto 33%
+}
+
+
+.sticky-content{
+    display:flex;
+    grid-column-start: auto;
+    grid-row-start:2;
+    justify-content:center;
+    
+}
+
+.task{
+    grid-column-start:1;
+    grid-row-start:2;
+    text-align: center;
+}
+
+.assignee{
+    grid-column-start:3;
+    grid-row-start:2;
+    text-align: center;
+}
+
+.title{
+    text-align:center;
+}
