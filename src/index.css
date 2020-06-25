@@ -24,7 +24,7 @@
     
 }
 
-.task{
+.type{
     grid-column-start:1;
     grid-row-start:2;
     text-align: center;

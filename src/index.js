@@ -10,7 +10,7 @@ function Title(props){
     );
 }
 
-function Task(props){
+function Type(props){
     return(
       <p>
           {props.value}
@@ -39,9 +39,10 @@ class TaskCard extends React.Component{
         super(props);
         this.state ={
             title:"Order Lunch",
-            task:"Order fries",
+            type:"Task",
             assignee:"John Doe",
-            sticky_content: "lorem ipsum"
+            sticky_content: "lorem ipsum",
+            status: "Done"
         }
     }
     
@@ -53,10 +54,10 @@ class TaskCard extends React.Component{
         );
     }
 
-    renderTask(task){
+    renderType(type){
         return(
-            <Task
-                value = {task}
+            <Type
+                value = {type}
             />
         );
     }
@@ -79,7 +80,7 @@ class TaskCard extends React.Component{
 
     render(){
         const title = this.state.title;
-        const task = this.state.task;
+        const type = this.state.type;
         const assignee = this.state.assignee;
         const sticky_content = this.state.sticky_content
     
@@ -92,8 +93,8 @@ class TaskCard extends React.Component{
                     {this.renderStickyContent(sticky_content)}
                 </div>
                 <div class = "task-footer">
-                    <div class = "task">
-                        {this.renderTask(task)}
+                    <div class = "type">
+                        {this.renderType(type)}
                     </div>
                     <div class = "assignee">
                         {this.renderAssignee(assignee)}
@@ -102,6 +103,10 @@ class TaskCard extends React.Component{
             </div>
         );
     }
+}
+
+class TaskBoard extends React.Component{
+
 }
   // ========================================
   
