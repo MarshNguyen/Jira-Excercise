@@ -7,8 +7,10 @@ function TaskBoard() {
     <div class="task-board">
       <TaskColumn status="TO-DO" />
       <TaskColumn status="IN PROGRESS" />
-      <TaskColumm status="READY TO TEST" />
+      <TaskColumn status="READY TO TEST" />
       <TaskColumn status="DONE" />
     </div>
   );
 }
+
+export default TaskBoard;

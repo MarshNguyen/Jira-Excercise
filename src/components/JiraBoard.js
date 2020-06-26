@@ -13,3 +13,5 @@ function JiraBoard() {
     </div>
   );
 }
+
+export default JiraBoard;
