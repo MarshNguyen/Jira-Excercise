@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import TaskColumn from "./TaskColumn.js";
 
+import "./TaskBoard.css";
+
 function TaskBoard() {
   return (
     <div class="task-board">
