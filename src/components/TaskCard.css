@@ -25,15 +25,15 @@
 .type {
   grid-column-start: 1;
   grid-row-start: 2;
-  text-align: start;
   padding-left: 10px;
+  text-align: start;
 }
 
 .assignee {
   grid-column-start: 3;
   grid-row-start: 2;
-  text-align: end;
   padding-right: 10px;
+  text-align: end;
 }
 
 .title {
