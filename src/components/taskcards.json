@@ -1,0 +1,29 @@
+[
+  {
+    "assignee": "John Doe",
+    "stickyContent": "Large fries, no salt",
+    "title": "Order Lunch",
+    "type": "Task"
+  },
+
+  {
+    "assignee": "Mary Sue",
+    "stickycontent": "Cheeseburger combo, Coke",
+    "title": "Order Lunch",
+    "type": "Task"
+  },
+
+  {
+    "assignee": "Albert Albatross Jr.",
+    "stickycontent": "Find cheapest burger joint",
+    "title": "Order Lunch",
+    "type": "Task"
+  },
+
+  {
+    "assignee": "???",
+    "stickycontent": "???",
+    "title": "???",
+    "type": "Bug"
+  }
+]

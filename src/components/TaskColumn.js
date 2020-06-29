@@ -9,7 +9,13 @@ function TaskColumn(props) {
   return (
     <div class="task-column">
       <h2>{props.status}</h2>
-      <TaskCard />
+      <TaskCard
+        assignee="John Doe"
+        status={status}
+        stickyContent="Lorem Ipsum"
+        title="Order Lunch"
+        type="Task"
+      />
     </div>
   );
 }
