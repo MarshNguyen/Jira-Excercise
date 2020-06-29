@@ -35,7 +35,7 @@ function TaskCard(props) {
       </div>
       <div class="task-footer">
         <div class="type">
-          <Type value={title} />
+          <Type value={type} />
         </div>
         <div class="assignee">
           <Assignee value={title} />
