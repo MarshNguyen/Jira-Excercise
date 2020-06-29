@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import TaskCard from "./TaskCard.js";
 
+import "./TaskColumn.css";
+
 function TaskColumn(props) {
   const [status, setStatus] = useState(props.status);
   return (
